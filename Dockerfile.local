@@ -1,3 +1,9 @@
 FROM jupyter/scipy-notebook:1fbaef522f17
 
+RUN conda install --yes --quiet -c damianavila82 rise
+RUN python -m pip install itk
+RUN python -m pip install itkwidgets && \
+  python -m jupyter nbextension install --py --sys-prefix itkwidgets && \
+  python -m jupyter nbextension enable --py --sys-prefix itkwidgets
+
 MAINTAINER Matt McCormick <matt.mccormick@kitware.com>
