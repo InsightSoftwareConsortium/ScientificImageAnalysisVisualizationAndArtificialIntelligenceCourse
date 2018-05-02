@@ -1,0 +1,3 @@
+FROM jupyter/scipy-notebook:1fbaef522f17
+
+MAINTAINER Matt McCormick <matt.mccormick@kitware.com>
