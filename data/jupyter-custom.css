@@ -1,0 +1,10 @@
+#ipython_notebook img{
+    display:block;
+    background: url(logo.png) no-repeat;
+    background-size: contain;
+    width: 124px;
+    height: 33px;
+    padding-left: 124px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
