@@ -1,0 +1,6 @@
+FROM thewtex/krs-course:local
+
+ADD LICENSE /home/jovyan/
+ADD *.ipynb /home/jovyan/
+ADD data /home/jovyan/data
+CMD ["/usr/local/bin/start-singleuser.sh"]
