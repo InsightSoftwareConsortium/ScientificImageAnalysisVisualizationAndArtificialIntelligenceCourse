@@ -1,6 +1,5 @@
 FROM thewtex/krs-course:local
 
-ADD LICENSE /home/jovyan/
-ADD *.ipynb /home/jovyan/
-ADD data /home/jovyan/data
+RUN python -m pip install git+https://github.com/data-8/nbgitpuller && \
+  python -m jupyter serverextension enable --py nbgitpuller --sys-prefix
 CMD ["/usr/local/bin/start-singleuser.sh"]
