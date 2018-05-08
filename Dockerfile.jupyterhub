@@ -9,5 +9,6 @@ ADD data /home/jovyan/data
 USER root
 RUN chown -R $NB_USER:users /home/jovyan/*
 USER $NB_USER
+RUN rmdir /home/jovyan/work
 
 CMD ["/usr/local/bin/start-singleuser.sh"]
