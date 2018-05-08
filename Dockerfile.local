@@ -9,4 +9,5 @@ RUN python -m pip install itkwidgets && \
 
 ADD data/kitware-logo-small.png /home/jovyan/.jupyter/custom/logo.png
 ADD data/jupyter-custom.css /home/jovyan/.jupyter/custom/custom.css
-
+USER root
+RUN chown -R $NB_USER:users /home/jovyan/.jupyter

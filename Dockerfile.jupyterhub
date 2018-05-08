@@ -6,5 +6,8 @@ RUN python -m pip install git+https://github.com/data-8/nbgitpuller && \
 ADD LICENSE /home/jovyan/
 ADD *.ipynb /home/jovyan/
 ADD data /home/jovyan/data
+USER root
+RUN chown -R $NB_USER:users /home/jovyan/*
+USER $NB_USER
 
 CMD ["/usr/local/bin/start-singleuser.sh"]
