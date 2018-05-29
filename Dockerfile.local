@@ -6,6 +6,8 @@ RUN python -m pip install itk
 RUN python -m pip install itkwidgets && \
   python -m jupyter nbextension install --py --sys-prefix itkwidgets && \
   python -m jupyter nbextension enable --py --sys-prefix itkwidgets
+RUN mkdir -p $HOME/.jupyter && \
+  echo "c.NotebookApp.iopub_data_rate_limit=1e22" >> $HOME/.jupyter/jupyter_notebook_config.py
 
 ADD data/kitware-logo-small.png /home/jovyan/.jupyter/custom/logo.png
 ADD data/jupyter-custom.css /home/jovyan/.jupyter/custom/custom.css
