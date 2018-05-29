@@ -22,8 +22,8 @@ Instructors:
   :width: 500px
 
 
-The `Insight Segmentation and Registration Toolkit (ITK) (www.itk.org) <
-https://www.itk.org>`_ has become a standard in academia and industry for
+The `Insight Segmentation and Registration Toolkit (ITK) (www.itk.org) <https://www.itk.org>`_
+has become a standard in academia and industry for
 medical image analysis. In recent years, the ITK community has
 focused on providing programming interfaces to ITK from Python and JavaScript
 and making ITK available via leading applications such as Slicer and ImageJ.
