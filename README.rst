@@ -47,7 +47,7 @@ simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/2018-05-30-KR
 Locally, with Docker
 ^^^^^^^^^^^^^^^^^^^^
 
-First, `install Docker <https://docs.docker.com/install/>`_ if not already
+First, `install Docker <https://docs.docker.com/install/>`_, if not already
 available.
 
 Next, clone the repository::
@@ -55,7 +55,7 @@ Next, clone the repository::
   git clone https://github.com/KitwareMedical/2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
   cd 2018-05-30-KRSCourseInBiomedicalImageAnalysisAndVisualization
 
-Then, build an run the Docker image::
+Then, build and run the Docker image::
 
   ./build.sh
   ./run.sh
@@ -66,7 +66,7 @@ Locally, with Python from Python.org or a System Python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First, `install Python
-<https://www.python.org/downloads/release/python-365/>`_
+<https://www.python.org/downloads/release/python-365/>`_,
 if not already available.
 
 Next, install the required dependencies::
@@ -89,7 +89,7 @@ And start Jupyter::
 Locally, with Conda
 ^^^^^^^^^^^^^^^^^^^
 
-First, `install MiniConda <https://conda.io/miniconda.html>`_ or Anaconda if
+First, `install MiniConda <https://conda.io/miniconda.html>`_ or Anaconda, if
 not already available.
 
 Next, install the required dependencies::
