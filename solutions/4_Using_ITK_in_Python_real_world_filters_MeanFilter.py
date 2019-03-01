@@ -1,0 +1,6 @@
+mean_filter = itk.MeanImageFilter[ImageType, ImageType].New()
+mean_filter.SetInput(image)
+mean_filter.SetRadius(5)
+mean_filter.Update()
+mean_filtered_image = mean_filter.GetOutput()
+view(mean_filtered_image)
