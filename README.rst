@@ -71,11 +71,9 @@ if not already available.
 
 Next, install the required dependencies::
 
-   python -m pip install jupyter matplotlib numpy scipy ipywidgets scikit-learn
-   python -m jupyter nbextension enable --py widgetsnbextension
+   python -m pip install tornado==5.1.1 jupyter matplotlib numpy scipy ipywidgets scikit-learn
+   python -m pip install --upgrade --pre itk itk-texturefeatures
    python -m pip install itkwidgets
-   python -m jupyter nbextension enable --py --sys-prefix itkwidgets
-   python -m pip install itk itk-texturefeatures itk-ultrasound
 
 Then, clone the repository::
 
@@ -95,9 +93,8 @@ not already available.
 Next, install the required dependencies::
 
    conda install -c conda-forge jupyter matplotlib numpy scipy ipywidgets scikit-learn
+   python -m pip install --upgrade --pre itk itk-texturefeatures
    python -m pip install itkwidgets
-   python -m jupyter nbextension enable --py --sys-prefix itkwidgets
-   python -m pip install itk itk-texturefeatures itk-ultrasound
 
 Then, clone the repository::
 

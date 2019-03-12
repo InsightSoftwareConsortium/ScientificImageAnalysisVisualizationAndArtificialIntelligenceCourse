@@ -1,11 +1,9 @@
-FROM jupyter/scipy-notebook:1fbaef522f17
+FROM jupyter/scipy-notebook:6fb3eca57bd3
 MAINTAINER Matt McCormick <matt.mccormick@kitware.com>
 
 RUN conda install --yes --quiet -c damianavila82 rise
-RUN python -m pip install itk itk-ultrasound itk-texturefeatures
-RUN python -m pip install itkwidgets && \
-  python -m jupyter nbextension install --py --sys-prefix itkwidgets && \
-  python -m jupyter nbextension enable --py --sys-prefix itkwidgets
+RUN python -m pip install --upgrade --pre itk itk-texturefeatures
+RUN python -m pip install itkwidgets
 RUN mkdir -p $HOME/.jupyter && \
   echo "c.NotebookApp.iopub_data_rate_limit=1e22" >> $HOME/.jupyter/jupyter_notebook_config.py
 RUN python -m pip install cookiecutter
