@@ -5,7 +5,7 @@ RUN python -m pip install git+https://github.com/data-8/nbgitpuller && \
 
 ADD LICENSE /home/jovyan/
 ADD *.ipynb /home/jovyan/
-ADD solutions/ /home/jovyan/
+ADD solutions /home/jovyan/solutions
 ADD data /home/jovyan/data
 ENV NB_UID 1000
 USER root
