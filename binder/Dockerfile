@@ -1,3 +1,4 @@
-FROM thewtex/krs-course:8c292e9
+FROM thewtex/krs-course:1f3809f
+
 
 CMD ["start-notebook.sh"]
