@@ -1,4 +1,4 @@
-FROM thewtex/krs-course:3780abd
+FROM vicory/ms-hackathon:3780abd
 
 
 CMD ["start-notebook.sh"]

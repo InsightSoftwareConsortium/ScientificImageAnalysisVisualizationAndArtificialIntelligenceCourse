@@ -1,4 +1,4 @@
-FROM thewtex/krs-course:local
+FROM vicory/ms-hackathon:local
 
 RUN python -m pip install git+https://github.com/data-8/nbgitpuller && \
   python -m jupyter serverextension enable --py nbgitpuller --sys-prefix
