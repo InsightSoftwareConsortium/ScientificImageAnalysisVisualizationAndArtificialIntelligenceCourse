@@ -5,7 +5,7 @@ Kitware, Carrboro, North Carolina, USA
 ======================================
 
 .. image:: https://mybinder.org/badge.svg
-  :target: https://mybinder.org/v2/gh/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization/master
+  :target: https://mybinder.org/v2/gh/vicory/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence/master
 
 Instructors:
 

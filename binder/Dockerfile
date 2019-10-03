@@ -1,4 +1,4 @@
-FROM vicory/ms-hackathon:3780abd
+FROM vicory/ms-hackathon:fbae537
 
 
 CMD ["start-notebook.sh"]
