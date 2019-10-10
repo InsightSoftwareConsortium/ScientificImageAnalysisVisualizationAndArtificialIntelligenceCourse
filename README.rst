@@ -5,13 +5,11 @@ Kitware, Carrboro, North Carolina, USA
 ======================================
 
 .. image:: https://mybinder.org/badge.svg
-  :target: https://mybinder.org/v2/gh/vicory/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence/master
+  :target: https://mybinder.org/v2/gh/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence/master
 
 Instructors:
 
-- Matt McCormick, PhD
-- Dženan Zukić, PhD
-- Francois Budin
+- Jared Vicory, PhD
 
 .. image:: data/kitware-logo.png
   :alt: Kitware
@@ -52,8 +50,8 @@ available.
 
 Next, clone the repository::
 
-  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
+  git clone https://github.com/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
+  cd CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
 
 Then, build and run the Docker image::
 
@@ -77,8 +75,8 @@ Next, install the required dependencies::
 
 Then, clone the repository::
 
-  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
+  git clone https://github.com/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence.git
+  cd CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
 
 And start Jupyter::
 
@@ -98,8 +96,8 @@ Next, install the required dependencies::
 
 Then, clone the repository::
 
-  git clone https://github.com/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization.git
-  cd 2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization
+  git clone https://github.com/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence.git
+  cd CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
 
 And start Jupyter::
 
