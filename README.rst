@@ -40,7 +40,7 @@ On the Web, with Binder
 
 To run the notebooks in
 `MyBinder <https://mybinder.readthedocs.io/en/latest/>`_,
-simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/2019-03-13-KRSCourseInBiomedicalImageAnalysisAndVisualization/master>`_.
+simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence/master>`_.
 
 Locally, with Docker
 ^^^^^^^^^^^^^^^^^^^^
