@@ -1,4 +1,4 @@
-FROM thewtex/itk-course:f23eaed
+FROM thewtex/itk-course:3e351aa
 
 
 CMD ["start-notebook.sh"]
