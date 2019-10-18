@@ -6,4 +6,4 @@ isolated_connected.SetUpperValueLimit( 245 )
 isolated_connected.FindUpperThresholdOff();
 isolated_connected.Update()
 
-view(isolated_connected)
+view(isolated_connected, ui_collapsed=True)

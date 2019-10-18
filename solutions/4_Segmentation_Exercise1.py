@@ -6,4 +6,4 @@ connected_threshold.SetReplaceValue( 255 )
 connected_threshold.SetSeed( [100, 110] );
 connected_threshold.Update()
 
-view(connected_threshold)
+view(connected_threshold, ui_collapsed=True)
