@@ -1,4 +1,4 @@
-FROM vicory/ms-hackathon:f23eaed
+FROM thewtex/itk-course:f23eaed
 
 
 CMD ["start-notebook.sh"]

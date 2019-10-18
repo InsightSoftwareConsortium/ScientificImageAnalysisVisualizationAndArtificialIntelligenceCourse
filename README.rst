@@ -9,7 +9,7 @@ Kitware, Carrboro, North Carolina, USA
 
 Instructors:
 
-- Jared Vicory, PhD
+- Matt McCormick, PhD
 
 .. image:: data/kitware-logo.png
   :alt: Kitware

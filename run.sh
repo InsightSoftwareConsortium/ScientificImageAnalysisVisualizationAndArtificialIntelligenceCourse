@@ -9,4 +9,4 @@ docker run \
   -e NB_GID=$(id -g) \
   -e GRANT_SUDO=yes \
   -v $PWD:/home/jovyan/work \
-  vicory/ms-hackathon:local
+  thewtex/itk-course:local
