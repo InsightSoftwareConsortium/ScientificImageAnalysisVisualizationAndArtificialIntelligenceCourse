@@ -1,2 +1,2 @@
-otsu_filtered_image = itk.otsu_threshold_image_filter(image)
+otsu_filtered_image = itk.OtsuThresholdImageFilter(image)
 view(otsu_filtered_image, ui_collapsed=True)
