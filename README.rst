@@ -25,10 +25,9 @@ has become a standard in academia and industry for
 medical image analysis. In recent years, the ITK community has
 focused on providing programming interfaces to ITK from Python and JavaScript
 and making ITK available via leading applications such as Slicer and ImageJ.
-In this course we present best practices for taking advantage of ITK in your
-imaging research and commercial products. We demonstrate how script writing
-and can be used to access the algorithms in ITK and the
-multitude of ITK extensions that are freely available on the web.
+In this course, we present best practices for taking advantage of ITK in your
+imaging research and commercial products. We demonstrate how to utilize the algorithms
+in ITK and the multitude of ITK extensions that are freely available on the web.
 
 Run the Tutorial
 ----------------
