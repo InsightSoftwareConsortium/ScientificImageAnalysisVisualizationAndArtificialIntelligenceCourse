@@ -5,11 +5,12 @@ Kitware, Carrboro, North Carolina, USA
 ======================================
 
 .. image:: https://mybinder.org/badge.svg
-  :target: https://mybinder.org/v2/gh/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence/master
+  :target: https://mybinder.org/v2/gh/InsightSoftwareConsortium/ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse/master
 
 Instructors:
 
 - Matt McCormick, PhD
+- Dženan Zukić, PhD
 
 .. image:: data/kitware-logo.png
   :alt: Kitware
@@ -39,7 +40,7 @@ On the Web, with Binder
 
 To run the notebooks in
 `MyBinder <https://mybinder.readthedocs.io/en/latest/>`_,
-simply `click this link <https://mybinder.org/v2/gh/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence/master>`_.
+simply `click this link <https://mybinder.org/v2/gh/InsightSoftwareConsortium/ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse/master>`_.
 
 Locally, with Docker
 ^^^^^^^^^^^^^^^^^^^^
@@ -49,8 +50,8 @@ available.
 
 Next, clone the repository::
 
-  git clone https://github.com/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
-  cd CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
+  git clone https://github.com/InsightSoftwareConsortium/ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse
+  cd ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse
 
 Then, build and run the Docker image::
 
@@ -63,7 +64,7 @@ Locally, with Python from Python.org or a System Python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 First, `install Python
-<https://www.python.org/downloads/release/python-365/>`_,
+<https://www.python.org/downloads/release/python-379/>`_,
 if not already available.
 
 Next, install the required dependencies::
@@ -74,8 +75,8 @@ Next, install the required dependencies::
 
 Then, clone the repository::
 
-  git clone https://github.com/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence.git
-  cd CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
+  git clone https://github.com/InsightSoftwareConsortium/ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse
+  cd ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse
 
 And start Jupyter::
 
@@ -95,8 +96,8 @@ Next, install the required dependencies::
 
 Then, clone the repository::
 
-  git clone https://github.com/KitwareMedical/CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence.git
-  cd CourseInBiomedicalImageAnalysisVisualizationAndArtificialIntelligence
+  git clone https://github.com/InsightSoftwareConsortium/ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse.git
+  cd ScientificImageAnalysisVisualizationAndArtificialIntelligenceCourse
 
 And start Jupyter::
 
