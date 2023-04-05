@@ -1,8 +1,8 @@
-#* Open a Notebook terminal (New->Terminal)
-#* If the folder is already there, remove it:
+# * Open a Notebook terminal (New->Terminal)
+# * If the folder is already there, remove it:
 #        rm -rf ITKModuleTemplate
-#* Create new module
+# * Create new module
 #        python -m cookiecutter gh:InsightSoftwareConsortium/ITKModuleTemplate --no-input
-#* Explore module
+# * Explore module
 #        cd ITKModuleTemplate
 #        ls

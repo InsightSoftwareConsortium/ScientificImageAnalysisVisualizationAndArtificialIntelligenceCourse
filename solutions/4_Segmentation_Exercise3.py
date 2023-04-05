@@ -25,5 +25,10 @@ else:
     curvature_scaling = 1.0
     number_of_iterations = 100
 
-explore_shape_detection_image_parameters(basin_minimum, boundary_minimum, 
-                                         propagation_scaling, curvature_scaling, number_of_iterations)
+explore_shape_detection_image_parameters(
+    basin_minimum,
+    boundary_minimum,
+    propagation_scaling,
+    curvature_scaling,
+    number_of_iterations,
+)
