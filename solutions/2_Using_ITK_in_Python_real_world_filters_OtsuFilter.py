@@ -1,5 +1,5 @@
-InputImageType = itk.Image[itk.ctype('float'), 2]
-OutputImageType = itk.Image[itk.ctype('short'), 2]
+InputImageType = itk.Image[itk.ctype("float"), 2]
+OutputImageType = itk.Image[itk.ctype("short"), 2]
 
 otsu_filter = itk.OtsuThresholdImageFilter[InputImageType, OutputImageType].New()
 otsu_filter.SetInput(image)

@@ -69,7 +69,7 @@ if not already available.
 
 Next, install the required dependencies::
 
-   python -m pip install jupyter matplotlib numpy scipy ipywidgets scikit-learn cookiecutter
+   python -m pip install jupyter jupyterlab matplotlib numpy scipy ipywidgets scikit-learn cookiecutter
    python -m pip install --upgrade itk itk-texturefeatures
    python -m pip install itkwidgets
 
