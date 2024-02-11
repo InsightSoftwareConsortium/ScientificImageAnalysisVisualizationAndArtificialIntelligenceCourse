@@ -1,0 +1,17 @@
+cookiecutter
+cmake
+ipywidgets
+itk
+itk-texturefeatures
+itkwasm-image-io
+itkwasm-downsample
+itkwidgets[lab,notebook]==1.0a48
+monai[gdown,nibabel,itk,matplotlib,tqdm,ignite]
+jupyter
+jupyterlab
+matplotlib
+ngff-zarr
+numpy
+rise
+scipy
+scikit-learn
