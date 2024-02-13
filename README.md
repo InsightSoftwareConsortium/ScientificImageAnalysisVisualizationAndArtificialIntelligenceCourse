@@ -41,14 +41,14 @@ If you do not have a python environment manager available, we recommend [microma
 Create an environment with Python 3.11, activate it, and install the course Python dependencies.
 
 ```bash
-micromamba create -n itk-course python=3.11 -c conda-forge
+micromamba create -n itk-course "python=3.11" -c conda-forge
 ```
 
 Activate the environment and install required Python packages:
 
 ```bash
 micromamba activate itk-course
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python -m bash_kernel.install
 ```
 
