@@ -1,3 +1,4 @@
+bash_kernel
 cookiecutter
 cmake
 ipywidgets

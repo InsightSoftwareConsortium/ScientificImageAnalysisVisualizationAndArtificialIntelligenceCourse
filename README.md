@@ -49,6 +49,7 @@ Activate the environment and install required Python packages:
 ```bash
 micromamba activate itk-course
 pip install -r requirements.txt
+python -m bash_kernel.install
 ```
 
 ### Native C++ development tools
