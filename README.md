@@ -30,7 +30,9 @@ in the _requirements.txt_ file.
 The following instruction provide a complete setup that supports native C++ development, WebAssembly
 development, and Python scripting.
 
-### Set up a Python environmentWe will be using the `bash` shell p-- on Windows this is available with the standard [Git installation](https://git-scm.com/downloads) as _Git Bash_. Bash is installed by default on macOS and Linux.
+### Set up a Python environment
+
+We will be using the `bash` shell. On Windows this is available with the standard [Git installation](https://git-scm.com/downloads) as _Git Bash_. Bash is installed by default on macOS and Linux.
 
 If you do not have a python environment manager available, we recommend [micromamba](https://mamba.readthedocs.io/).
 
