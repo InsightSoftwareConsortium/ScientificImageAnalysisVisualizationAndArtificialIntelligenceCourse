@@ -68,6 +68,4 @@ int main(int argc, char *argv[])
   return itk::wasm::SupportInputImageTypes<PipelineFunctor,
                                            uint8_t,
                                            float>::Dimensions<2U, 3U>("input-image", pipeline);
-
-  return EXIT_SUCCESS;
 }
